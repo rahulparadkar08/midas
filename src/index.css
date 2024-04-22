@@ -1,0 +1,10 @@
+:root {
+  --red-color: #b70031;
+  --font-family: Arial, sans-serif;
+  --max-width-container : 1100px;
+}
+
+
+.container {
+  max-width: var(--max-width-container) !important;
+}
