@@ -1,0 +1,51 @@
+/* LogoSliderSecond.css */
+
+@keyframes slides-reverse-second {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.logos-second {
+  overflow: hidden;
+  padding: 0px 0px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos-second:before,
+.logos-second:after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+
+.logos-second:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255,255,255,0), rgba(255, 255, 255, 0.4));
+}
+
+.logos-second:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255, 255, 255, 0.4));
+}
+
+.logo_items-second {
+  display: inline-block;
+  animation: 35s slides-reverse-second infinite linear;
+}
+
+.logos-second:hover .logo_items-second {
+  animation-play-state: paused;
+}
+
+.logo_items-second img{
+  height: 100px;
+  margin: 0px 5px;
+}

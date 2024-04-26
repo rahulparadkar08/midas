@@ -1,0 +1,67 @@
+.bg-dark {
+    background-color: var(--green-color) !important;
+}
+
+#topfooter .mt-3 {
+    margin-top: 0.5rem !important;
+}
+
+#topfooter i{
+color: var(--yellow-color);
+}
+
+#topfooter i:hover{
+    color: white;
+    }
+#topfooter #disableFlex ul li a{
+color: white;
+text-decoration: none;
+}
+
+
+#topfooter ul {
+    padding-left: 1rem !important;
+}
+
+#FIcon i{
+    font-size: 1.2rem;
+    color: var(--yellow-color);
+    margin: 0px 10px;
+}
+@media only screen and (max-width: 600px) {
+    #topfooter #space{
+        margin-top: 20px;
+    } 
+    #topfooter #disableFlex{
+        display: flex;
+        justify-content: left !important;
+    }
+
+}
+
+#footer-bottom{
+    padding: 10px;
+}
+#footer-bottom .terms-block{
+    display: flex;
+    justify-content: center;
+    color: var(--yellow-color);
+    flex-wrap: wrap;
+}
+
+#footer-bottom ul {
+    padding-left: 1rem !important;
+}
+
+
+#footer-bottom .terms-block a{
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+#footer-bottom .bottom-last-row{
+    color: white;
+    text-align: center;
+}

@@ -1,5 +1,9 @@
 :root {
   --red-color: #b70031;
+  --green-color:#113e00;
+  --yellow-color:#fffb00;
+  --light-yellow-color:#fffce4;
+  --light-dark-yellow-color:#fff5a5;
   --font-family: Arial, sans-serif;
   --max-width-container : 1100px;
 }

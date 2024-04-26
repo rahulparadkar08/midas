@@ -1,0 +1,22 @@
+#courseCard .btn{
+font-weight: 500;
+}
+#courseCard{
+    margin: 10px;
+    color: white;
+}
+
+#courseCard .card-title{
+    color:var(--yellow-color);
+}
+
+#courseCard .card-body{
+    text-align: center;
+}
+
+#courseCard .h5{
+    font-size: 1.6rem;
+}
+#courseCard .text-muted {
+    color: var(--yellow-color) !important;
+}

@@ -1,0 +1,37 @@
+.whatsnew {
+    padding: 35px;
+    background-color: #b70031; /* Change the background color as needed */
+    border-radius: 10px;
+  }
+  
+  .whatsnew .heading2 {
+    color: #ffca2c; /* Change the heading color as needed */
+    padding-bottom: 20px;
+  }
+  
+  .whatsnew ul strong {
+    color: white; /* Change the color as needed */
+  }
+  
+  .whatsnew ul a {
+    color: #fffde7; /* Change the color as needed */
+    text-decoration: none !important;
+  }
+  
+  .whatsnew ul a:hover {
+    text-decoration: underline; /* Change the hover effect as needed */
+  }
+
+  @media screen and (max-width: 768px) {
+    .secondCorousol > .col-sm-4,
+    .secondCorousol > .col-sm-8 {
+      width: 100%;
+    }
+  }
+
+
+  /* course */
+  #courses .col{
+    display: flex;
+    justify-content: center;
+  }

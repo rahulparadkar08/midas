@@ -1,0 +1,38 @@
+.bg-dark{
+    background-color: white !important;
+    border: none;
+}
+
+#cardTitle{
+    font-size: 3.6rem;
+}
+
+#cardText{
+    font-size: 4.6rem;
+}
+
+.card-img-overlay{
+    display: flex;
+    align-items: center;
+}
+
+.card-img-overlay h1{
+text-align: left !important; 
+
+}
+
+.card-header{
+    border-bottom: solid 1px white;
+}
+
+.card-body{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #titleContanctUS{
+        font-weight: 500 !important;
+        font-size:26px;
+    }
+  }
+

@@ -1,0 +1,12 @@
+/* styles.css */
+.heading-row th {
+  background-color: var(--green-color) !important;
+  color: var(--light-dark-yellow-color) !important;
+  font-weight: 500;
+}
+
+
+#subTitle{
+  font-weight: normal;
+  color: var(--light-yellow-color);
+}

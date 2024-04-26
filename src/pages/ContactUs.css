@@ -1,0 +1,85 @@
+.contact-icons-container {
+    padding: 20px 0;
+  }
+  
+  
+  .contact-icon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; /* Adjust height as needed */
+  }
+  
+  .contact-icon {
+    font-size: 3rem;
+    color: var(--red-color);
+  }
+  
+  .contact-info {
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+    color: var(--red-color);
+  }
+  .contact-title {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+
+  .contact-icons-container .row .col{
+    border-right: 1px solid #ebebeb;
+  }
+
+  .horizontal-line {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid black;
+  }
+  
+  .header-text {
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .card-image {
+      width: 100%;
+    }
+  }
+  
+
+@media only screen and (max-width: 600px) {
+.contact-icons-container .row{
+display: flex;
+flex-direction: column;
+}
+}
+
+#branchDiv .col{
+    display: flex;
+    justify-content: center;
+}
+
+#branchDiv .card{
+    --bs-card-border-width: 0px; 
+    --bs-card-inner-border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#branchDiv .card .card-body{
+    padding-bottom: 0px;
+}
+#branchDiv .card .card-title{
+color: var(--red-color);
+}
+
+#branchDiv .card img{
+    width: 80% !important;
+    }
