@@ -10,9 +10,17 @@ const FooterBottom = () => {
         <Row>
           <Col>
             <div className="terms-block">
-              <a href="/rules_and_regulations">Rules And Regulations</a> |
+              <Nav.Link as={Link} to="/rules_and_regulations">
+                Rules And Regulations
+              </Nav.Link>
+              |
+              <Nav.Link as={Link} to="/refund_and_cancellation">
+                Refund & Cancellation
+              </Nav.Link>
+              |
+              {/* <a href="/rules_and_regulations">Rules And Regulations</a> | */}
               {/* <a href="/">Privacy Policy</a> |<a href="/">Payment Terms</a> | */}
-              <a href="/refund_and_cancellation">Refund & Cancellation</a>
+              {/* <a href="/refund_and_cancellation">Refund & Cancellation</a> */}
               {/* <a href="/">Disclaimer</a> | */}
               {/* <a
                 href="/"
