@@ -10,19 +10,18 @@ const FooterBottom = () => {
         <Row>
           <Col>
             <div className="terms-block">
-              <a href="/">Terms of Use</a> |<a href="/">Privacy Policy</a> |
-              <a href="/">Payment Terms</a> |
-              <a href="/">Refund & Cancellation</a> |<a href="/">Disclaimer</a>{" "}
-              |
-              <a
+              <a href="/rules_and_regulations">Rules And Regulations</a> |
+              {/* <a href="/">Privacy Policy</a> |<a href="/">Payment Terms</a> | */}
+              <a href="/refund_and_cancellation">Refund & Cancellation</a>
+              {/* <a href="/">Disclaimer</a> | */}
+              {/* <a
                 href="/"
                 onClick={() => {
-                  /* Add analytics event */
                 }}
                 target="_blank"
               >
                 Public Notice
-              </a>
+              </a> */}
             </div>
           </Col>
         </Row>

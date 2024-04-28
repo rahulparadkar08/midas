@@ -18,40 +18,40 @@ const imagesFirst = [
   "./images/home/student/5.jpg",
   "./images/home/student/6.jpg",
   "./images/home/student/7.jpg",
-  "./images/home/student/1.jpg",
-  "./images/home/student/2.jpg",
-  "./images/home/student/3.jpg",
-  "./images/home/student/4.jpg",
-  "./images/home/student/5.jpg",
+  "./images/home/student/8.jpg",
+  "./images/home/student/9.jpg",
+  "./images/home/student/10.jpg",
+  "./images/home/student/11.jpg",
+  "./images/home/student/12.jpg",
 ];
 
 const imagesThird = [
-  "./images/home/student/1.jpg",
-  "./images/home/student/2.jpg",
-  "./images/home/student/3.jpg",
-  "./images/home/student/4.jpg",
-  "./images/home/student/5.jpg",
-  "./images/home/student/6.jpg",
-  "./images/home/student/7.jpg",
-  "./images/home/student/1.jpg",
-  "./images/home/student/2.jpg",
-  "./images/home/student/3.jpg",
-  "./images/home/student/4.jpg",
-  "./images/home/student/5.jpg",
+  "./images/home/student/25.jpg",
+  "./images/home/student/32.jpg",
+  "./images/home/student/26.jpg",
+  "./images/home/student/27.jpg",
+  "./images/home/student/28.jpg",
+  "./images/home/student/29.jpg",
+  "./images/home/student/30.jpg",
+  "./images/home/student/31.jpg",
+  "./images/home/student/33.jpg",
+  "./images/home/student/34.jpg",
+  "./images/home/student/35.jpg",
+  "./images/home/student/36.jpg",
 ];
 const imagesSecond = [
-  "./images/home/student/1.jpg",
-  "./images/home/student/2.jpg",
-  "./images/home/student/3.jpg",
-  "./images/home/student/4.jpg",
-  "./images/home/student/5.jpg",
-  "./images/home/student/6.jpg",
-  "./images/home/student/7.jpg",
-  "./images/home/student/1.jpg",
-  "./images/home/student/2.jpg",
-  "./images/home/student/3.jpg",
-  "./images/home/student/4.jpg",
-  "./images/home/student/5.jpg",
+  "./images/home/student/13.jpg",
+  "./images/home/student/14.jpg",
+  "./images/home/student/15.jpg",
+  "./images/home/student/16.jpg",
+  "./images/home/student/17.jpg",
+  "./images/home/student/18.jpg",
+  "./images/home/student/19.jpg",
+  "./images/home/student/20.jpg",
+  "./images/home/student/21.jpg",
+  "./images/home/student/22.jpg",
+  "./images/home/student/23.jpg",
+  "./images/home/student/24.jpg",
 ];
 
 function CoursesAndFees() {
@@ -118,16 +118,12 @@ const Home = () => {
     if (marqueeRef) marqueeRef.start();
   };
   const HomeFirstImages = [
+    "./images/home/top1.jpg",
     "./images/home/c1.jpg",
-    "./images/home/c1.jpg",
-    "./images/home/c1.jpg",
+    "./images/home/top2.jpg",
   ];
 
-  const HomeSecondImages = [
-    "./images/home/s1.jpg",
-    "./images/home/s2.jpg",
-    "./images/home/s1.jpg",
-  ];
+  const HomeSecondImages = ["./images/home/s3.jpg", "./images/home/s2.jpg"];
   return (
     <>
       <div className="container" style={{ marginTop: "15px" }}>

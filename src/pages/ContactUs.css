@@ -75,6 +75,7 @@ flex-direction: column;
 
 #branchDiv .card .card-body{
     padding-bottom: 0px;
+    text-align: center;
 }
 #branchDiv .card .card-title{
 color: var(--red-color);

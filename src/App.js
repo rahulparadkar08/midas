@@ -17,6 +17,8 @@ import ApplyOnline from "./pages/ApplyOnline";
 import Enquiry from "./pages/Enquiry";
 import Footer from "./components/Footer";
 import WrongPage from "./pages/WrongPage";
+import RefundRules from "./pages/RefundRules";
+import Rules_and_regulations from "./pages/Rules_and_regulations";
 
 function App() {
   return (
@@ -38,6 +40,17 @@ function App() {
           <Route path="/applyOnline" exact element={<ApplyOnline />} />
           <Route path="/enquiry" exact element={<Enquiry />} />
           <Route path="/working" exact element={<WrongPage />} />
+          <Route
+            path="/rules_and_regulations"
+            exact
+            element={<Rules_and_regulations />}
+          />
+
+          <Route
+            path="/refund_and_cancellation"
+            exact
+            element={<RefundRules />}
+          />
         </Routes>
         <Footer />
       </div>
