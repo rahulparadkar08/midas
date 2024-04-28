@@ -144,29 +144,45 @@ const Footer = () => {
                 <h4 style={{ color: "var(--yellow-color)" }}>Useful Links</h4>
                 <ul>
                   <li>
-                    <a href="/aboutUs" style={{ color: "#fff" }}>
+                    <Nav.Link as={Link} to="/aboutUs" style={{ color: "#fff" }}>
                       About MIDAS
-                    </a>
+                    </Nav.Link>
+
+                    {/* <a href="/aboutUs" style={{ color: "#fff" }}>
+                      About MIDAS
+                    </a> */}
                   </li>
                   <li>
-                    <a href="/aboutUs" style={{ color: "#fff" }}>
+                    <Nav.Link as={Link} to="/aboutUs" style={{ color: "#fff" }}>
                       Directors Message
-                    </a>
+                    </Nav.Link>
+                    {/* <a href="/aboutUs" style={{ color: "#fff" }}>
+                      Directors Message
+                    </a> */}
                   </li>
                   <li>
-                    <a href="/aboutUS" style={{ color: "#fff" }}>
+                    <Nav.Link as={Link} to="/aboutUs" style={{ color: "#fff" }}>
                       MIDAS system
-                    </a>
+                    </Nav.Link>
+                    {/* <a href="/aboutUS" style={{ color: "#fff" }}>
+                      MIDAS system
+                    </a> */}
                   </li>
                   <li>
-                    <a href="/result" style={{ color: "#fff" }}>
+                    <Nav.Link as={Link} to="/result" style={{ color: "#fff" }}>
                       Result
-                    </a>
+                    </Nav.Link>
+                    {/* <a href="/result" style={{ color: "#fff" }}>
+                      Result
+                    </a> */}
                   </li>
                   <li>
-                    <a href="/gallery" style={{ color: "#fff" }}>
+                    <Nav.Link as={Link} to="/gallery" style={{ color: "#fff" }}>
                       Gallery
-                    </a>
+                    </Nav.Link>
+                    {/* <a href="/gallery" style={{ color: "#fff" }}>
+                      Gallery
+                    </a> */}
                   </li>
                 </ul>
               </div>
@@ -180,23 +196,33 @@ const Footer = () => {
                 <h4 style={{ color: "var(--yellow-color)" }}>Courses</h4>
                 <ul>
                   <li>
-                    <a href="/course1">XI Fresher</a>
+                    <Nav.Link as={Link} to="/course1" style={{ color: "#fff" }}>
+                      XI Fresher
+                    </Nav.Link>
                   </li>
                   <li>
                     {" "}
-                    <a href="/course2">XII Target/Ultimate</a>
+                    <Nav.Link as={Link} to="/course2" style={{ color: "#fff" }}>
+                      XII Target/Ultimate
+                    </Nav.Link>
                   </li>
                   <li>
                     {" "}
-                    <a href="/course3">VIII Foundation</a>
+                    <Nav.Link as={Link} to="/course3" style={{ color: "#fff" }}>
+                      VIII Foundation
+                    </Nav.Link>
                   </li>
                   <li>
                     {" "}
-                    <a href="/course4">IX Foundation</a>
+                    <Nav.Link as={Link} to="/course4" style={{ color: "#fff" }}>
+                      IX Foundation
+                    </Nav.Link>
                   </li>
                   <li>
                     {" "}
-                    <a href="/course5">X Foundation</a>
+                    <Nav.Link as={Link} to="/course5" style={{ color: "#fff" }}>
+                      X Foundation
+                    </Nav.Link>
                   </li>
                 </ul>
               </div>
