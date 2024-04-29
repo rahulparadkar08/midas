@@ -68,6 +68,7 @@ function CoursesAndFees() {
             buttonColor="warning"
             cardTitle="XI Fresher"
             linkRedirect="/course1"
+            CardText="Student moving from 10th to 11th for IIT-JEE/NEET, including the full syllabus of 11th."
           />
         </Col>
         <Col lg={4} md={6} sm={12}>
@@ -76,6 +77,7 @@ function CoursesAndFees() {
             buttonColor="light"
             cardTitle="XII Targte/Ultimate"
             linkRedirect="/course2"
+            CardText="For class 12th appearing/passed students targeting the IIT-JEE (Main+Advanced) exam."
           />
         </Col>
         <Col lg={4} md={6} sm={12}>
@@ -84,6 +86,7 @@ function CoursesAndFees() {
             buttonColor="warning"
             cardTitle="VIII Foundation"
             linkRedirect="/course3"
+            CardText="Building a foundation for upcoming board examinations and preparing for Olympiads."
           />
         </Col>
         <Col lg={4} md={6} sm={12}>
@@ -92,6 +95,7 @@ function CoursesAndFees() {
             buttonColor="light"
             cardTitle="IX Foundation"
             linkRedirect="/course4"
+            CardText="Building a foundation for upcoming board examinations and preparing for Olympiads."
           />
         </Col>
         <Col lg={4} md={6} sm={12}>
@@ -100,6 +104,7 @@ function CoursesAndFees() {
             buttonColor="warning"
             cardTitle="X Foundation"
             linkRedirect="/course5"
+            CardText="Building a foundation for upcoming board examinations and preparing for IIT-JEE/NEET."
           />
         </Col>
       </Row>
@@ -151,42 +156,47 @@ const Home = () => {
                   >
                     <li>
                       <strong>
-                        05 April 2024 <span>New</span>
+                        JEE / NEET <span style={{ color: "yellow" }}>New</span>
                       </strong>
-                      <p>
+                      <p style={{ color: "var(--light-yellow-color)" }}>
+                        <label>
+                          2<sup>nd</sup> JEE and NEET Batch Starting From May
+                        </label>
+                      </p>
+                    </li>
+                    <li>
+                      <strong>
+                        CA / CS <span style={{ color: "yellow" }}>New</span>
+                      </strong>
+                      <p style={{ color: "var(--light-yellow-color)" }}>
+                        <label>ca/cs batch starting from june</label>
+                      </p>
+                    </li>
+                    <li>
+                      <strong>
+                        Online Registration for JEE (Advanced) 2024 is now open
+                        <span style={{ color: "yellow" }}> New</span>
+                      </strong>
+                      <p style={{ color: "var(--light-yellow-color)" }}>
                         <a
-                          href="https://www.pnbindia.in/downloadprocess.aspx?fid=iIiR5N+tWP2qZjDFBVudhQ=="
+                          href="https://jeeadv.nic.in/applicant"
                           target="_blank"
                         >
-                          JEE Main 2024 (Session-2) Answer Key & Paper Solutions
+                          Click to open
                         </a>
                       </p>
                     </li>
                     <li>
                       <strong>
-                        03 February 2024 <span>New</span>
+                        JEE (Advanced) 2024 Information Brochure{" "}
+                        <span style={{ color: "yellow" }}>New</span>
                       </strong>
-                      <p>
+                      <p style={{ color: "var(--light-yellow-color)" }}>
                         <a
-                          href="https://www.pnbindia.in/downloadprocess.aspx?fid=riOvyS1kUecqaaAfNLjeJQ=="
+                          href="https://jeeadv.ac.in/documents/IB_V.1.0_JEE_Adv_2024_English.pdf"
                           target="_blank"
                         >
-                          JEE-Main 2024 Test Papers with solutions book
-                          accessible to all! SHOP NOW on
-                        </a>
-                      </p>
-                    </li>
-                    <li>
-                      <strong>
-                        11 January 2024 <span>New</span>
-                      </strong>
-                      <p>
-                        <a
-                          href="https://www.pnbindia.in/downloadprocess.aspx?fid=Enp+eT/uvrzB3IUXcOYa9A=="
-                          target="_blank"
-                        >
-                          JEE-Main 2024 Test Papers with solutions book
-                          accessible to all! SHOP NOW on
+                          Click to open
                         </a>
                       </p>
                     </li>

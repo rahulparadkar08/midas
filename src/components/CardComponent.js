@@ -1,11 +1,12 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import Link from "react-bootstrap/Button";
-
 import "./CardComponent.css";
+import { CardText, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function CardComponent(props) {
-  const { backgroundColor, buttonColor, cardTitle, linkRedirect } = props;
+  const { backgroundColor, buttonColor, cardTitle, linkRedirect, CardText } =
+    props;
   return (
     <Card
       style={{ width: "200px !important", backgroundColor: backgroundColor }}
@@ -13,13 +14,13 @@ function CardComponent(props) {
     >
       <Card.Body>
         <Card.Title>{cardTitle}</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant={buttonColor} href={linkRedirect}>
-          Click Here
+        {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+        <Card.Text>{CardText}</Card.Text>
+        <Button variant={buttonColor}>
+          {/* Click Here */}
+          <Nav.Link as={Link} to={linkRedirect} style={{ color: "black" }}>
+            Click Here
+          </Nav.Link>
         </Button>{" "}
       </Card.Body>
     </Card>
