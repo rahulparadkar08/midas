@@ -109,7 +109,11 @@ function NoAnimationExample() {
   const tabsData = [
     {
       year: "2024",
-      imageUrls: ["./images/result/2024-01.jpg"],
+      imageUrls: [
+        "./images/result/2024-01.jpg",
+        "./images/result/2024-02.jpg",
+        "./images/result/2024-03.jpg",
+      ],
     },
     {
       year: "2023",

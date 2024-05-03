@@ -128,7 +128,11 @@ const Home = () => {
     "./images/home/top2.jpg",
   ];
 
-  const HomeSecondImages = ["./images/home/s3.jpg", "./images/home/s2.jpg"];
+  const HomeSecondImages = [
+    "./images/home/s3.jpg",
+    "./images/home/s2.jpg",
+    "./images/home/s1.jpg",
+  ];
   return (
     <>
       <div className="container" style={{ marginTop: "15px" }}>
