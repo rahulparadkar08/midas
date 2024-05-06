@@ -16,7 +16,7 @@ function CardComponentTeacher() {
       title: "Satish Kr. Vishwakarma",
       image: "./images/aboutUs/t4.jpg",
       text: "Mr Satish is an Admin Manager/PRO in Midas Taj coaching classes. He has completed his M.B.A in Marketing/Operations from Nagpur University. He is having 8+ years of marketing and operations experience. Mr. Satish is responsible for marketing related activities",
-      subtitle: "Admin Manager/PRO",
+      subtitle: "Regional Branch Head",
       backgroundColor: "var(--red-color)",
     },
     {
@@ -48,7 +48,7 @@ function CardComponentTeacher() {
       title: "Banavathu Kishore",
       image: "./images/aboutUs/t14.jpg",
       text: "Mr Banavathu Kishore is a Chemistry Lecturer in Midas Taj coaching classes. He has completed his M.Sc. in Chemistry from IIT Bombay. He is having 12+ years of teaching experience in IIT JEE Mains and Advance, NEET.",
-      subtitle: "Chemistry Lecturer",
+      subtitle: "Academic Head & Chemistry Lecturer",
       backgroundColor: "var(--red-color)",
     },
     {

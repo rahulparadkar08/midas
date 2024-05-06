@@ -57,7 +57,8 @@ function App() {
             element={<RefundRules />}
           />
 
-          <Route path="*" element={<Navigate to="/" replace />} />
+          {/* <Route path="*" element={<Navigate to="/" replace />} /> */}
+          <Route path="*" element={<WrongPage />} />
         </Routes>
         <Footer />
       </div>

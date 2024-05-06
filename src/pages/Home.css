@@ -35,3 +35,24 @@
     display: flex;
     justify-content: center;
   }
+
+  #hmodel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hmodel .modal-content{
+    width: 0% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  #hmodel .close-button {
+background-color: #b70031;
+border-color: #ffffff;
+
+  }
+

@@ -9,7 +9,7 @@ import LogoSliderFirst from "../components/LogoSliderFirst";
 import LogoSliderSecond from "../components/LogoSliderSecond";
 import { Image } from "react-bootstrap";
 import { useState } from "react";
-
+import { Modal, Button } from "react-bootstrap";
 const imagesFirst = [
   "./images/home/student/1.jpg",
   "./images/home/student/2.jpg",
@@ -112,8 +112,30 @@ function CoursesAndFees() {
   );
 }
 
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+      id="hmodel"
+    >
+      <Button className="close-button" onClick={props.onHide}>
+        <span aria-hidden="true">&times;</span>
+      </Button>
+      <div closeButton>
+        <Modal.Body>
+          <Image src="./images/home/hmodel.jpg" fluid />
+        </Modal.Body>
+      </div>
+    </Modal>
+  );
+}
+
 const Home = () => {
   const [marqueeRef, setMarqueeRef] = useState(null);
+  const [modalShow, setModalShow] = useState(true);
 
   const handleMouseOver = () => {
     if (marqueeRef) marqueeRef.stop();
@@ -136,6 +158,13 @@ const Home = () => {
   return (
     <>
       <div className="container" style={{ marginTop: "15px" }}>
+        {/* model part start-------------------------------------- */}
+        <MyVerticallyCenteredModal
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+        />
+        {/* model part end-------------------------------------- */}
+
         <CarouselAnySize images={HomeFirstImages} />
 
         {/* notification start */}
