@@ -128,7 +128,7 @@ const Footer = () => {
                 <h5 style={{ color: "var(--light-dark-yellow-color)" }}>
                   Phone Number
                 </h5>
-                <p>123-456-7890</p>
+                <p>07165-220666</p>
                 <h5 style={{ color: "var(--light-dark-yellow-color)" }}>
                   Send us a Message
                 </h5>

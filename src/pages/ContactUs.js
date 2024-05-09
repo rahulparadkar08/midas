@@ -59,7 +59,7 @@ function KitchenSinkExample({ src, title, text, listItems }) {
       </Card.Body>
       <ListGroup className="list-group-flush">
         {listItems.map((item, index) => (
-          <ListGroup.Item key={index}>
+          <ListGroup.Item key={index} style={{ textAlign: "center" }}>
             <i
               class="bi bi-telephone-fill"
               style={{ color: "var(--red-color)" }}
@@ -109,14 +109,14 @@ const ContactUs = () => {
                 src="./images/home/branch2.jpg"
                 title="Seoni"
                 text="Bangana Building, First and Second Floor, Above Axis Bank, Main Road, Seoni Bypass Road, Seoni - 480661 (Opposite Kacheri Chouk)"
-                listItems={["9993184435, 9993174435"]}
+                listItems={["9993184435, 9993174435, 7903175271"]}
               />
             </Col>
             <Col>
               <KitchenSinkExample
                 src="./images/home/branch3.jpg"
                 title="Pandhurna"
-                text="2nd floar near pop club, front of shankar mandhir,shankar nagar,main road Pandhurna, Madhya Pradesh ( 480334 )"
+                text="2nd Floor, Near POP Club, Opposite Shankar Madir, Shankar Nagar, Pandhurna-Nagpur main road, Pandhurna, Madhya Pradesh (480334)"
                 listItems={["7903175271, 7004455253"]}
               />
             </Col>
