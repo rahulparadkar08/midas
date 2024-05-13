@@ -159,7 +159,7 @@ function CardComponentTeacher() {
       id: 20,
       title: "Trapti Rajpoot",
       image: "./images/aboutUs/t17.jpg",
-      text: "Ms Trapti Rajpoot is a Biology Lecturer in Midas Taj coaching classes. She has Completed her B.SC in Microbiology from Rani Durgavati Vishwavidyalaya, Jabalpur (MP) & B.Ed. from Chhinwada University. She is Having 2+ Years of teaching experience in Biology Subject.",
+      text: "Ms Trapti Rajpoot is a Biology Lecturer in Midas Taj coaching classes. She has completed her M.Sc. in microbiology and B.Ed. from chhindwara university. She is having 5+ years of teaching experience in Biology subject",
       subtitle: "Biology Lecturer",
       backgroundColor: "var(--red-color)",
     },
