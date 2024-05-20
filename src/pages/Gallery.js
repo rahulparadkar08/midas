@@ -135,6 +135,17 @@ function NoAnimationExample() {
             <span class="headingTitleGradient"> Gallery : </span> 2024
           </h1>
           <GalleryBox images={images1} />
+          {/* video */}
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/UA36JC4Rl8s?si=1NKsUO3l8krkzZyc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </Tab>
       <Tab eventKey="2023" title="2023">

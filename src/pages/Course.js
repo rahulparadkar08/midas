@@ -62,7 +62,7 @@ const Course = ({ firstTableData, secondTableData }) => {
                 Note :
               </b>{" "}
               [ ₹ 5000 Discount - XI & XII ( JEE/NEET ) ] and [ ₹ 1000 Discount
-              - 8, 9, 10<sup>th</sup> ( Foundation Batc h) ]{" "}
+              - 8, 9, 10<sup>th</sup> ( Foundation Batch) ]{" "}
               <b
                 style={{
                   color: "var(--red-color)",

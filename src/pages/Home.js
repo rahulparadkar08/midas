@@ -154,6 +154,7 @@ const Home = () => {
     "./images/home/s3.jpg",
     "./images/home/s2.jpg",
     "./images/home/s1.jpg",
+    "./images/home/s4.jpg",
   ];
   return (
     <>
@@ -207,12 +208,12 @@ const Home = () => {
                     </li>
                     <li>
                       <strong>
-                        Online Registration for JEE (Advanced) 2024 is now open
+                        Admit Card for JEE(Advanced) 2024 Examination
                         <span style={{ color: "yellow" }}> New</span>
                       </strong>
                       <p style={{ color: "var(--light-yellow-color)" }}>
                         <a
-                          href="https://jeeadv.nic.in/applicant"
+                          href="https://jeeadv.iitm.ac.in/applicant24/"
                           target="_blank"
                         >
                           Click to open
@@ -221,12 +222,12 @@ const Home = () => {
                     </li>
                     <li>
                       <strong>
-                        JEE (Advanced) 2024 Information Brochure{" "}
-                        <span style={{ color: "yellow" }}>New</span>
+                        MIDAS — Sausar | Seoni | Pandhurna{" "}
+                        <span style={{ color: "yellow" }}>New video</span>
                       </strong>
                       <p style={{ color: "var(--light-yellow-color)" }}>
                         <a
-                          href="https://jeeadv.ac.in/documents/IB_V.1.0_JEE_Adv_2024_English.pdf"
+                          href="https://www.youtube.com/watch?v=UA36JC4Rl8s"
                           target="_blank"
                         >
                           Click to open

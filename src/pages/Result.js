@@ -113,6 +113,7 @@ function NoAnimationExample() {
         "./images/result/2024-01.jpg",
         "./images/result/2024-02.jpg",
         "./images/result/2024-03.jpg",
+        "./images/result/2024-04.jpg",
       ],
     },
     {
