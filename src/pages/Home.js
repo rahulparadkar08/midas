@@ -146,7 +146,7 @@ const Home = () => {
   };
   const HomeFirstImages = [
     "./images/home/top1.jpg",
-    "./images/home/c1.jpg",
+    "./images/home/top3.jpg",
     "./images/home/top2.jpg",
   ];
 
@@ -190,12 +190,11 @@ const Home = () => {
                   >
                     <li>
                       <strong>
-                        JEE / NEET <span style={{ color: "yellow" }}>New</span>
+                        New Batch ( JEE / NEET ){" "}
+                        <span style={{ color: "yellow" }}>New</span>
                       </strong>
                       <p style={{ color: "var(--light-yellow-color)" }}>
-                        <label>
-                          2<sup>nd</sup> JEE and NEET Batch Starting From May
-                        </label>
+                        <label>Starting From 10 june 2024</label>
                       </p>
                     </li>
                     <li>
@@ -206,20 +205,7 @@ const Home = () => {
                         <label>ca/cs batch starting from june</label>
                       </p>
                     </li>
-                    <li>
-                      <strong>
-                        Admit Card for JEE(Advanced) 2024 Examination
-                        <span style={{ color: "yellow" }}> New</span>
-                      </strong>
-                      <p style={{ color: "var(--light-yellow-color)" }}>
-                        <a
-                          href="https://jeeadv.iitm.ac.in/applicant24/"
-                          target="_blank"
-                        >
-                          Click to open
-                        </a>
-                      </p>
-                    </li>
+
                     <li>
                       <strong>
                         MIDAS — Sausar | Seoni | Pandhurna{" "}
@@ -228,6 +214,21 @@ const Home = () => {
                       <p style={{ color: "var(--light-yellow-color)" }}>
                         <a
                           href="https://www.youtube.com/watch?v=UA36JC4Rl8s"
+                          target="_blank"
+                        >
+                          Click to open
+                        </a>
+                      </p>
+                    </li>
+
+                    <li>
+                      <strong>
+                        Admit Card for JEE(Advanced) 2024 Examination
+                        <span style={{ color: "yellow" }}> New</span>
+                      </strong>
+                      <p style={{ color: "var(--light-yellow-color)" }}>
+                        <a
+                          href="https://jeeadv.iitm.ac.in/applicant24/"
                           target="_blank"
                         >
                           Click to open

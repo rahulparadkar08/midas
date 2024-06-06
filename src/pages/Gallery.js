@@ -32,6 +32,50 @@ function NoAnimationExample() {
 
   const images1 = [
     {
+      url: "images/gallery/m20.jpg",
+      description: "Patrika Newspaper : 6 june 2024",
+    },
+    {
+      url: "images/gallery/m21.jpg",
+      description: "Divya express Newspaper : 6 june 2024",
+    },
+    {
+      url: "images/gallery/m22.jpg",
+      description: "The Hitavada English Newspaper : 6 june 2024",
+    },
+    {
+      url: "images/gallery/m23.jpg",
+      description: "Navbharat Newspaper : 6 june 2024",
+    },
+    {
+      url: "images/gallery/m24.jpg",
+      description: "Miraj Bharat Newspaper : 6 june 2024",
+    },
+    {
+      url: "images/gallery/m30.jpg",
+      description: "Jabalpur Newspaper : 6 june 2024",
+    },
+    {
+      url: "images/gallery/m25.jpg",
+      description: "",
+    },
+    {
+      url: "images/gallery/m26.jpg",
+      description: "",
+    },
+    {
+      url: "images/gallery/m27.jpg",
+      description: "",
+    },
+    {
+      url: "images/gallery/m28.jpg",
+      description: "",
+    },
+    {
+      url: "images/gallery/m29.jpg",
+      description: "",
+    },
+    {
       url: "images/gallery/m5.jpg",
       description:
         "Ms. Soumya Singh, Civil Judge of Sausar, Visit MIDAS TAJ CLASSES, SAUSAR",
