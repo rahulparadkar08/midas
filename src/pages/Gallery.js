@@ -32,6 +32,118 @@ function NoAnimationExample() {
 
   const images1 = [
     {
+      url: "images/gallery/m31.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m32.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m33.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m34.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m35.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m36.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m37.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m38.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m39.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m40.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m41.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m42.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m43.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m44.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m45.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m46.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m47.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m48.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m49.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m50.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m51.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m52.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m53.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m55.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m56.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m57.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m58.jpg",
+      description: "Result Celebration",
+    },
+    {
+      url: "images/gallery/m59.jpg",
+      description: "Result Celebration",
+    },
+    {
       url: "images/gallery/m20.jpg",
       description: "Patrika Newspaper : 6 june 2024",
     },

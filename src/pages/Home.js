@@ -194,7 +194,7 @@ const Home = () => {
                         <span style={{ color: "yellow" }}>New</span>
                       </strong>
                       <p style={{ color: "var(--light-yellow-color)" }}>
-                        <label>Starting From 10 june 2024</label>
+                        <label>Starting From 17 june 2024</label>
                       </p>
                     </li>
                     <li>

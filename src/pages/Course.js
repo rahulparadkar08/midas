@@ -61,8 +61,7 @@ const Course = ({ firstTableData, secondTableData }) => {
               >
                 Note :
               </b>{" "}
-              [ ₹ 5000 Discount - XI & XII ( JEE/NEET ) ] and [ ₹ 1000 Discount
-              - 8, 9, 10<sup>th</sup> ( Foundation Batch) ]{" "}
+              {firstTableData.note1}{" "}
               <b
                 style={{
                   color: "var(--red-color)",
@@ -133,33 +132,13 @@ const Course = ({ firstTableData, secondTableData }) => {
 
         <div style={{ marginTop: "20px" }}>
           <ul>
-            <li>
-              If Student get 80% Marks in Midas Enterance Cum Scholarship Test
-              then He/She will get 30% Scholarship on Total Fee.
-            </li>
-            <li>
-              If Student get 90% Marks in Midas Enterance Cum Scholarship Test
-              then He/She will get 50% Scholarship on Total Fee.
-            </li>
-            <li>
-              If Student get More then 90% Marks in 10<sup>th</sup>Board
-              (CBSE/STATE Board) then He/She will get Discount of ₹ 5000 on
-              Total Fee.
-            </li>
-            <li>
-              If Student get More then 90% Marks in 10<sup>th</sup>Board
-              (CBSE/STATE Board) will get Only one benefit on above Discount.
-            </li>
-            <li>
-              Registration Charge for Classes - 8<sup>th</sup>,9<sup>th</sup>,10
-              <sup>th</sup> ₹ 3000 and 11<sup>th</sup> ₹ 10,000 (Non-Refundable)
-            </li>
-            <li>Admission form fee (Including Midas Kit ) Charge ₹ 1000 </li>
-            <li>
-              Caution/Security Money for Class 8<sup>th</sup>,9<sup>th</sup>,10
-              <sup>th</sup> - ₹ 5,000 and 11<sup>th</sup> & 12<sup>th</sup> ₹
-              10,000 (Refundable)
-            </li>
+            {secondTableData.note1 && <li>{secondTableData.note1}</li>}
+            {secondTableData.note2 && <li>{secondTableData.note2}</li>}
+            {secondTableData.note3 && <li>{secondTableData.note3}</li>}
+            {secondTableData.note4 && <li>{secondTableData.note4}</li>}
+            {secondTableData.note5 && <li>{secondTableData.note5}</li>}
+            {secondTableData.note6 && <li>{secondTableData.note6}</li>}
+
             <li>
               <b
                 style={{
@@ -169,7 +148,7 @@ const Course = ({ firstTableData, secondTableData }) => {
               >
                 Note :
               </b>{" "}
-              Bus Fee is Excluding according to the respective places.
+              Bus Fee is Excluding according to their respective places.
             </li>
           </ul>
         </div>

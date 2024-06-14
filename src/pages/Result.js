@@ -34,6 +34,7 @@ function NoAnimationExample() {
     {
       year: "2024",
       imageUrls: [
+        "./images/result/2024-08.jpg",
         "./images/result/2024-07.jpg",
         "./images/result/2024-05.jpg",
         "./images/result/2024-06.jpg",
