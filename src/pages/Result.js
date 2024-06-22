@@ -42,6 +42,7 @@ function NoAnimationExample() {
         "./images/result/2024-02.jpg",
         "./images/result/2024-03.jpg",
         "./images/result/2024-04.jpg",
+        "./images/result/2024-09.jpg",
       ],
     },
     {
