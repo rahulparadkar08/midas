@@ -75,7 +75,7 @@ function CoursesAndFees() {
           <CardComponent
             backgroundColor="var(--green-color)"
             buttonColor="light"
-            cardTitle="XII Targte/Ultimate"
+            cardTitle="XII Target/Ultimate"
             linkRedirect="/course2"
             CardText="For class 12th appearing/passed students targeting the IIT-JEE (Main+Advanced) exam."
           />
@@ -199,10 +199,16 @@ const Home = () => {
                     </li>
                     <li>
                       <strong>
-                        CA / CS <span style={{ color: "yellow" }}>New</span>
+                        MIDAS RESULT 2024{" "}
+                        <span style={{ color: "yellow" }}>New</span>
                       </strong>
                       <p style={{ color: "var(--light-yellow-color)" }}>
-                        <label>ca/cs batch starting from june</label>
+                        <a
+                          href="https://midastajclasses.com/result"
+                          target="_blank"
+                        >
+                          Click to open
+                        </a>
                       </p>
                     </li>
 
